@@ -14,13 +14,13 @@
       <tr>
         <th class="text-center">ID</th>
         <th class="text-center">名前</th>
-        <!--<th class="text-center">役職</th>-->
+        <th class="text-center">役職</th>>
       </tr>
       @foreach($persons as $person)
       <tr>
         <td>{{ $person->id}}</td>
         <td>{{ $person->name}}</td>
-        <!--<td>{{ $person->title}}</td>-->
+        <td>{{ $person->title}}</td>
       </tr>
       @endforeach
     </table>
